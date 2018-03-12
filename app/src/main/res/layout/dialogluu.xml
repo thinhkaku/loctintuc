@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#E040FB"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:text="Bạn có muốn lưu trang web này?"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLuuluu"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="10sp"
+            android:background="#FAFAFA"
+            android:text="Lưu" />
+
+        <Button
+            android:id="@+id/btnHuyLuu"
+            android:layout_width="100sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="10sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"
+            android:background="#FAFAFA"
+            android:text="Hủy" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#C6FF00"
+    android:layout_height="match_parent">
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:dividerHeight="5sp"
+    android:divider="#9E9E9E"
+    android:id="@+id/lvTinTuc">
+</ListView>
+</LinearLayout>
